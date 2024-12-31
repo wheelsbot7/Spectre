@@ -7,6 +7,11 @@
   {
     "id": 2,
     "icon": "earth",
-    "text": "Made in Germany"
+    "text": "Made in Pennsylvania"
+  },
+  {
+    "id": 3,
+    "icon": "medal",
+    "text": "World's biggest JSON hater"
   }
 ]
