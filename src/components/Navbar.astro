@@ -1,5 +1,5 @@
 ---
-import Icon from "./Icon.astro";
+import { Icon } from 'astro-icon/components';
 
 const path = Astro.url.pathname;
 ---
@@ -20,7 +20,7 @@ const path = Astro.url.pathname;
     </li>
   </ul>
   <button class="mobile-nav-toggle">
-    <Icon name="menu" width={24} height={24} class="menu-closed" />
+    <Icon name="mdi:mdi:menu" width={24} height={24} class="menu-closed" />
   </button>
 </nav>
 <script is:inline>

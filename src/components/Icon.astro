@@ -1,5 +1,6 @@
 ---
-import { icons } from '@iconify-json/mdi';
+import { promises as fs } from 'fs';
+import { locate } from '@iconify/json';
 import type { icons as iconsJson } from '@iconify-json/mdi/icons.json';
 import { getIconData, iconToSVG, replaceIDs } from '@iconify/utils';
 import type { HTMLAttributes } from 'astro/types';
@@ -12,7 +13,11 @@ interface SVGAttributes extends HTMLAttributes<'svg'> {
 interface Props extends HTMLAttributes<'svg'> {
 	name: keyof typeof iconsJson;
 }
+  // Locate icons
+  const filename = locate('mdi');
 
+  // Load icon set
+  const icons = JSON.parse(await fs.readFile(filename, 'utf8'));
 const { name, ...props } = Astro.props;
 const attributes = props as SVGAttributes;
 const iconData = getIconData(icons, name);

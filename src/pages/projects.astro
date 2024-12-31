@@ -3,7 +3,7 @@ import '../styles/article-list.css';
 
 import { getCollection } from "astro:content";
 import Card from "../components/Card.astro";
-import Icon from "../components/Icon.astro";
+import { Icon } from 'astro-icon/components'
 import Layout from "../layouts/Layout.astro";
 import { openGraph } from 'spectre:globals';
 
@@ -28,7 +28,7 @@ const projects = await getCollection('projects');
   <div class="layout-grid-right" slot="right">
 		<Card>
 			<div class="header-container">
-				<Icon name="git" width={24} height={24} class='glow-icon' />
+				<Icon name="mdi:git" width={24} height={24} class='glow-icon' />
 				<h2>Latest Projects</h2>
 			</div>
 			<div class="content-container">

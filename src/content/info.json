@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "icon": "cake",
+    "icon": "mdi:cake",
     "text": "1 year old"
   },
   {
     "id": 2,
-    "icon": "earth",
+    "icon": "mdi:earth",
     "text": "Made in Pennsylvania"
   },
   {
     "id": 3,
-    "icon": "medal",
+    "icon": "mdi:medal",
     "text": "World's biggest JSON hater"
   }
 ]

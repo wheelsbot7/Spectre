@@ -7,6 +7,8 @@ import spectre from "./package/src";
 
 import node from "@astrojs/node";
 
+import icon from "astro-icon";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://wheelsbot.dev",
@@ -41,6 +43,14 @@ export default defineConfig({
         reactionsEnabled: true,
         emitMetadata: false,
         lang: "en",
+      },
+    }),
+    icon({
+      include: {
+        // Include only three `mdi` icons in the bundle
+        mdi: ["*"],
+        // Include all `uis` icons
+        ri: ["*"],
       },
     }),
   ],
