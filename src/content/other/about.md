@@ -1,3 +1,5 @@
+# About
+
 Spectre is a terminal-inspired theme for Astro!
 
 It features a sleek dark-mode aesthetic, various social features inspired by
@@ -8,4 +10,3 @@ scores, full keyboard accessibility, comments powered by
 
 If you want to dive deeper, check out the example project, and if you want to
 get started, check out the blog post!
-

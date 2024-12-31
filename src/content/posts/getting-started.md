@@ -8,6 +8,8 @@ tags:
   - guide
 ---
 
+<!-- markdownlint-disable -->
+
 Thanks for going with Spectre as your theme of choice! Let's get you set up. You
 can create a new Astro project with this theme by running:
 
