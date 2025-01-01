@@ -48,6 +48,7 @@ const posts = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      icon: z.custom<keyof typeof iconsJson>(),
       createdAt: z.coerce.date(),
       updatedAt: z.coerce.date().optional(),
       description: z.string(),

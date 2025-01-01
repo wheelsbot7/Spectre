@@ -6,6 +6,7 @@ createdAt: 12-29-2024
 draft: false
 tags:
   - guide
+icon: "lineicons:astro"
 ---
 
 <!-- markdownlint-disable -->

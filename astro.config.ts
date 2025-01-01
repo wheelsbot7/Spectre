@@ -47,9 +47,7 @@ export default defineConfig({
     }),
     icon({
       include: {
-        // Include only three `mdi` icons in the bundle
         mdi: ["*"],
-        // Include all `uis` icons
         ri: ["*"],
       },
     }),

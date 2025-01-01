@@ -1,6 +1,7 @@
 ![Spectre, a terminal-inspired theme for Astro.](./images/README.png)
 
-Spectre is a terminal-inspired theme for Astro, built using TypeScript and Astro.
+Spectre is a terminal-inspired theme for Astro, built using TypeScript and
+Astro.
 
 ## Getting Started
 
@@ -35,8 +36,12 @@ yarn create astro --template louisescher/spectre
 
 ## Curious?
 
-Head over to [the preview page](https://spectre.louisescher.dev) to find out more!
+Head over to [the preview page](https://spectre.louisescher.dev) to find out
+more!
 
 ### Spectre Integration
 
-If you want to know more about how the custom integration that is used in the `astro.config.ts` file works, head over to the [integration's own README](https://github.com/louisescher/spectre/tree/master/package)!
+If you want to know more about how the custom integration that is used in the
+`astro.config.ts` file works, head over to the
+[integration's own README](https://github.com/louisescher/spectre/tree/master/package)!
+

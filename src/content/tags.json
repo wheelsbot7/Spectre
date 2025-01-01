@@ -1,6 +1,17 @@
 [
   {
     "id": "guide"
+  },
+  {
+    "id": "linux"
+  },
+  {
+    "id": "javascript"
+  },
+  {
+    "id": "node"
+  },
+  {
+    "id": "webdev"
   }
 ]
-
