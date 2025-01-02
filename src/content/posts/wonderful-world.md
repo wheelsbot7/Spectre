@@ -39,3 +39,23 @@ trivial to copy someone else's setup. Which brings me to the reason I wanted to
 make this post, and the software I'm currently writing in...
 
 ## Neovim
+
+> [!note]
+>
+> This is a callout section that works in neovim, but it might not work in Astro
+
+> [!important]
+>
+> This one's pretty real fr fr
+
+> [!caution]
+>
+> DON'T DO THIS NO
+
+> [!warning]
+>
+> DON'T DO THIS EITHER NONOONONONONONONONONONONONO
+
+> [!tip]
+>
+> don't do this ever okay?
