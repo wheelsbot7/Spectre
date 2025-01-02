@@ -20,6 +20,9 @@ importers:
       '@iconify-json/fa6-brands':
         specifier: ^1.2.5
         version: 1.2.5
+      '@iconify-json/lineicons':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@iconify-json/lucide':
         specifier: ^1.2.20
         version: 1.2.20
@@ -491,6 +494,9 @@ packages:
 
   '@iconify-json/fa6-brands@1.2.5':
     resolution: {integrity: sha512-U/iFfziz6jSN9zArOJZYTtoj2tQyh6MxPdI8M84DQ2kEulPaj8j+h9bqvjmzszNHmD7v+kmmKd/MLkMKk+3Zuw==}
+
+  '@iconify-json/lineicons@1.2.4':
+    resolution: {integrity: sha512-OKvUL14Z7CgD027OWtse56GK0T8MDDMnFw75MjOlGAgleLJBR9Uue7nSEteF5K/fLjvSKtIhjnRLsN8BC3TpLg==}
 
   '@iconify-json/lucide@1.2.20':
     resolution: {integrity: sha512-m/8rqukvQfsE+MYTwNXCxP/K2iucTCGSQfS0XZhYpkZKGRdiEOdAAnd8Vv+E78xKK94Jza2eTc5ihxbw6+i7EQ==}
@@ -2747,6 +2753,10 @@ snapshots:
       '@expressive-code/core': 0.38.3
 
   '@iconify-json/fa6-brands@1.2.5':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/lineicons@1.2.4':
     dependencies:
       '@iconify/types': 2.0.0
 

@@ -42,7 +42,8 @@ const tags = posts.flatMap((post) => post.data.tags);
 			<div class="content-container">
 				{posts.sort((a, b) => b.data.createdAt.getTime() - a.data.createdAt.getTime()).map((post) => (
 					<a href={`/blog/${post.id}`} class="post-container" data-tags={post.data.tags.map((tag) => tag.id).join(",")}>
-						<div class="post-header">
+          <div class="post-header">
+              <Icon name={post.data.icon} width={24} height={24} class='glow-icon' />
 							<h3>{post.data.title}</h3>
 							<span class="post-date">{post.data.createdAt.toLocaleDateString()}</span>
 						</div>
