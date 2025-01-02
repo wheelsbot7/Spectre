@@ -4,18 +4,22 @@ import expressiveCode from "astro-expressive-code";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import spectre from "./package/src";
-import rehypeCallouts from "rehype-callouts";
-import "rehype-callouts/theme/github";
 import node from "@astrojs/node";
 
 import icon from "astro-icon";
+import rehypeCallouts from "rehype-callouts";
+
+const calloutOptions = {
+  theme: "github",
+};
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://wheelsbot.dev",
   output: "static",
   markdown: {
-    rehypePlugins: [rehypeCallouts],
+    remarkPlugins: [],
+    rehypePlugins: [[rehypeCallouts, calloutOptions]],
   },
   integrations: [
     expressiveCode(),
