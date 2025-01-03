@@ -49,9 +49,17 @@ version of [ED](<https://en.wikipedia.org/wiki/Ed_(software)>), which was a Unix
 port of [QED](<https://en.wikipedia.org/wiki/QED_(text_editor)>)[^1]. This is
 relevant because beyond modernizing an ancient program, Neovim was designed for
 extensibility. Fitting considering how far back its roots stretch. And make no
-mistake, those roots are still there.
+mistake, those roots are still there. EX was a complete rewrite, so only design
+decisions remain from ED and QED, but beyond that? There's C code from the 70's
+running under the hood, providing the exact same functionality it did back then.
+Imagine if all software preservation was this easy! No emulation, no
+compatibility layers, no nothing, just CPU instructions triggered on key press.
 
 [^1]: Which stands for Quick EDitor, if you were wondering.
+
+Anyway, the point of going over Neovim's dumb-as-bricks foundations was to show
+how easily dotfiles can transform a program into something unrecognizable (and
+if you aren't careful, something far less usable).
 
 > [!note]
 >
