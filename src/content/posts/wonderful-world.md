@@ -38,7 +38,20 @@ of a dotfiles folder partially negates this potential hurdle by making it
 trivial to copy someone else's setup. Which brings me to the reason I wanted to
 make this post, and the software I'm currently writing in...
 
-## Neovim
+## ![Neovim logo](../assets/devicon--neovim.svg) Neovim
+
+Neovim is a heavily refactored fork of
+[Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>) , which was a clone of
+[VI](<https://en.wikipedia.org/wiki/Vi_(text_editor)>), which was the visual
+mode of a command line text editor called
+[EX](<https://en.wikipedia.org/wiki/Ex_(text_editor)>), which was an optimized
+version of [ED](<https://en.wikipedia.org/wiki/Ed_(software)>), which was a Unix
+port of [QED](<https://en.wikipedia.org/wiki/QED_(text_editor)>)[^1]. This is
+relevant because beyond modernizing an ancient program, Neovim was designed for
+extensibility. Fitting considering how far back its roots stretch. And make no
+mistake, those roots are still there.
+
+[^1]: Which stands for Quick EDitor, if you were wondering.
 
 > [!note]
 >
