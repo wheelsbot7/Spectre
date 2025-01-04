@@ -1,6 +1,5 @@
 ---
-import { Icon } from 'astro-icon/components';
-
+import { Icon } from "astro-icon/components";
 const path = Astro.url.pathname;
 ---
 <nav>
@@ -17,6 +16,9 @@ const path = Astro.url.pathname;
     <li>
       <input id="search" type="text" placeholder="Search (Ctrl+K)" />
       <div id="search-results"></div>
+    </li>
+    <li>
+      <button id="toggle-rendering">Toggle BG</button>
     </li>
   </ul>
   <button class="mobile-nav-toggle">
