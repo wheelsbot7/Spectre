@@ -9,8 +9,6 @@ import node from "@astrojs/node";
 import icon from "astro-icon";
 import rehypeCallouts from "rehype-callouts";
 
-import preact from "@astrojs/preact";
-
 const calloutOptions = {
 	theme: "github",
 };
@@ -61,10 +59,8 @@ export default defineConfig({
 				ri: ["*"],
 			},
 		}),
-		preact(),
 	],
 	adapter: node({
 		mode: "standalone",
 	}),
 });
-

@@ -59,7 +59,55 @@ compatibility layers, no nothing, just CPU instructions triggered on key press.
 
 Anyway, the point of going over Neovim's dumb-as-bricks foundations was to show
 how easily dotfiles can transform a program into something unrecognizable (and
-if you aren't careful, something far less usable).
+if you aren't careful, something far less usable). As tempting as it is to copy
+and paste someone else's setup, it really pays off to know the ins and outs of
+whatever program you're configuring. That's always the tradeoff, technical
+experience is never "optional", it just might take a while before it becomes
+mandatory. Neovim's extensibility means that pre-configured setups aren't just
+appealing, they're almost required. Thankfully, someone smarter than me _also_
+noticed this and created a set of dotfiles that pulls double-duty as both a
+functional configuration of Neovim, and an annotated guide to every part of the
+program.
+
+### Kickstart.nvim
+
+[Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) is a Neovim
+configuration that I think everyone should use, at least to start with. A common
+sentiment from more technically experienced folks towards new users is RTFM, or
+Read The Fucking Manual. Back when you installed software from physical media,
+this was more or less the expectation. No Clippy, no labels or visible keymaps,
+you were just expected to spend a week going through >100 pages of technical
+documentation covering every single function and use case. Kickstart.nvim
+preserves some of this philosophy by heavily relying on the <kbd>leader</kbd> +
+<kbd>s</kbd> + <kbd>h</kbd> command, which pulls up a search box that scrubs the
+built-in manual for more detailed documentation on whatever you might need help
+with. The only "required reading" is presented in a simple, no-frills, Mike
+Ehrmantraut "Here's what you're gonna do" format.
+
+> [!tip]
+>
+> So here's what you're gonna do. You're gonna go to Kickstart.nvim's GitHub
+> page. You're gonna fork the repository, just like it tells ya. You're gonna
+> install the dependencies listed in the README, doesn't matter which OS you're
+> on, there's options for all of 'em. You're gonna find your Neovim config
+> folder and clone your forked repository right in there, nice and clean. You're
+> gonna open up your favorite terminal and type "nvim", if any errors pop up,
+> you mucked something up. No big deal, just go back to the README and make sure
+> you did every step just like it told ya. You're gonna keep doing that, and
+> once you're done, you're gonna type ":Tutor". You're gonna do what it says
+> until you got a basic grasp on Vim-style editing. Once you're confident in
+> that department, you're gonna type ":e $MYVIMRC". From there, you read what it
+> tells you, write it down if you have to, just pay attention and restart after
+> any changes to avoid pouring over every line looking for which one caused an
+> error. You got all that?
+
+Well you better have, because up next are the advanced setups with a ton of
+pre-configured features that are definitely more usable out of the box, but work
+best as examples or inspiration, not an all-in-one shortcut.
+
+### NVChad
+
+A wildly popular choice, NVChad has a lot going for it.
 
 > [!note]
 >
