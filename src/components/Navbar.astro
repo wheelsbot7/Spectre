@@ -31,7 +31,6 @@ const path = Astro.url.pathname;
   const navToggle = document.querySelector('.mobile-nav-toggle');
 
   let focusIndex = -1;
-  document.documentElement.classList.add("dark");
   document.addEventListener('keydown', (e) => {
     if (e.key === 'k' && e.ctrlKey) {
       searchElement.focus();

@@ -1,9 +1,10 @@
-.dark .callout {
-	border-left-color: var(--callout-color-dark);
+@import "rehype-callouts/theme/github";
+.callout {
+	border-left-color: var(--callout-color-dark) !important;
 }
 
-.dark .callout-title {
-	color: var(--callout-color-dark);
+.callout-title {
+	color: var(--callout-color-dark) !important;
 }
 
 .callout {
