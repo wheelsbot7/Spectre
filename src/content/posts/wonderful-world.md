@@ -130,7 +130,7 @@ turned to Neovim to avoid. If you want to get base46 working with any other
 plugin, you'll find that NVChad doesn't mix well with anything but itself. This,
 to be clear, is totally fine on its own. NVChad already provides more than
 enough, and I can say you'll have a fine experience even if you only use default
-plugins.
+plugins. It's just not for me.
 
 > [!note]
 >
