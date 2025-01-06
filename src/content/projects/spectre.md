@@ -1,52 +1,22 @@
 ---
-title: Spectre
-date: 12-29-2024
+title: Amazing-Idea-Group
+date: 12-3-2024
 description:
-  Spectre is a terminal-inspired theme for Astro, built using Astro and
-  TypeScript.
-image: ../assets/spectre.png
+  Amazing-Idea-Group was a database and website front-end for reading and
+  submitting project ideas
+image: ../assets/AIG.png
 info:
   - icon: mdi:github
     text: GitHub
-    link: https://github.com/louisescher/spectre
+    link: https://github.com/wheelsbot7/Amazing-Idea-Group
 ---
 
-Spectre is a terminal-inspired theme for Astro, built using Astro and
-TypeScript.
+A frontend website for reading and submitting project ideas through a database
 
-It was designed after my website as part of my annual tradition to re-design it,
-and I figured I might as well make a theme out of it.
+Some info that users would be submitting to the database include:
 
-## Features
-
-- 100 / 100 Lighthouse performance
-- Responsive for all screen sizes
-- Fully accessible
-- Type-Safe
-- Auto-generated sitemap
-- Markdown / MDX Support
-- Builds on content collections
-- Search powered by [pagefind](https://pagefind.app)
-- Comments powered by [giscus](https://giscus.app) (can be turned off)
-- More!
-
-## Lighthouse
-
-Spectre scores 100 Points on every Lighthouse benchmark (Performance,
-Accessibility, Best Practices, SEO):
-
-![A picture showing a 100/100 Lighthouse score on all tests](/img/lighthouse.png)
-
-## Speedy
-
-Spectre uses no additional frameworks, not even Tailwind. This results in
-incredibly fast load and build times.
-
-## Configurable
-
-Spectre's unique features can all be turned on or off and even modified. If you,
-for example, dislike the comments, you can disable them with ease.
-
----
-
-Spectre is licensed under the MIT license.
+- who made the project request
+- the requirements for said project
+- who is currently working on it
+- where the project currently is in development
+- the location of the project’s git repository

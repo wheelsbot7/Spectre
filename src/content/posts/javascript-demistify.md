@@ -2,7 +2,7 @@
 title: "What even is a Web Framework anyway?"
 draft: false
 image: "../assets/spectre.png"
-createdAt: 12-31-2024
+createdAt: 11-11-2024
 tags:
   - guide
 description: "

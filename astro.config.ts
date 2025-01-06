@@ -5,6 +5,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import spectre from "./package/src";
 import node from "@astrojs/node";
+import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 
 import icon from "astro-icon";
 import rehypeCallouts from "rehype-callouts";
@@ -22,7 +23,9 @@ export default defineConfig({
 		rehypePlugins: [[rehypeCallouts, calloutOptions]],
 	},
 	integrations: [
-		expressiveCode(),
+		expressiveCode({
+			plugins: [pluginLineNumbers()],
+		}),
 		mdx(),
 		sitemap(),
 		spectre({

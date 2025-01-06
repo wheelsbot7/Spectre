@@ -1,12 +1,8 @@
-# About
+My name is Owen Wertzberger, and I'm a programming student from Pennsylvania.
 
-Spectre is a terminal-inspired theme for Astro!
+I'm interested in open-source projects, mostly
+Linux<span style="font-size: 8px">(I use arch btw)</span> and web development.
 
-It features a sleek dark-mode aesthetic, various social features inspired by
-Neocities that are powered by a self-hostable Discord Bot, perfect lighthouse
-scores, full keyboard accessibility, comments powered by
-[giscus](https://giscus.app), a search powered by
-[pagefind](https://pagefind.app) and more!
-
-If you want to dive deeper, check out the example project, and if you want to
-get started, check out the blog post!
+Here you'll find documentation of my journey learning to use technology to
+express myself and solve problems. This blog was made **by** humans, **for**
+humans. Thank you for visiting!

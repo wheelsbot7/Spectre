@@ -120,11 +120,15 @@ p:has(img) {
 	justify-content: center;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	overflow: visible;
 }
 
 p img {
-	width: 50%;
-	height: auto;
+	margin: auto;
+	display: block;
+	width: auto;
+	max-width: 100%;
+	height: min-content;
 }
 
 .toc-card {
@@ -260,6 +264,7 @@ code:not(.astro-code code) {
 	width: 100%;
 	height: auto;
 	z-index: 1;
+	cursor: default !important;
 }
 
 .end-of-article {

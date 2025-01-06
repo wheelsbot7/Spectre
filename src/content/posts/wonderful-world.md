@@ -2,7 +2,7 @@
 title: The Wonderful World of Dotfiles
 createdAt: 12-30-2024
 draft: false
-image: "../assets/spectre.png"
+image: "../assets/folder.svg"
 tags:
   - guide
   - linux
@@ -107,7 +107,30 @@ best as examples or inspiration, not an all-in-one shortcut.
 
 ### NVChad
 
-A wildly popular choice, NVChad has a lot going for it.
+![NVChad's default UI, editing a Typescript file](../assets/nvchad.webp)
+
+A wildly popular choice, NVChad has a lot going for it. It's beautiful, for one
+thing. It's clear a lot of work was put into their custom base46 theming plugin.
+Their custom UI plugin as a whole does a lot of work in turning Neovim into
+something that _looks_ like an IDE. Let's see the docs page for it!
+
+![NVChad's docs page for NVUI with a single bullet point reading "Read :h nvui"](../assets/nvui.png)
+
+Oh... That's helpful. Well what about base46? The theming plugin must have some
+stuff about custom themes and whatnot, right?
+
+![NVChad's docs page for base46 with a single bullet point reading "Read :h nvui.base46"](../assets/base46.png)
+
+Huh.
+
+This is very much a "me thing" but this docs page really turned me off on
+NVChad. The use of custom plugins for basic features is cool to see, they very
+much do what they're supposed to, but it also reminds me of the walled gardens I
+turned to Neovim to avoid. If you want to get base46 working with any other
+plugin, you'll find that NVChad doesn't mix well with anything but itself. This,
+to be clear, is totally fine on its own. NVChad already provides more than
+enough, and I can say you'll have a fine experience even if you only use default
+plugins.
 
 > [!note]
 >

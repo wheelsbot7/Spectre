@@ -66,7 +66,14 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		{description && <meta name="twitter:description" content={description} />}
 		<meta name="twitter:image" content={image?.src || '/img/og.png'} />
 	</head>
-	<body>
+	<script>
+  import mediumZoom from 'medium-zoom';
+  mediumZoom('img', {
+    margin: 16,
+    background: "#00000095",
+  });
+  </script>
+  <body>
 		<main data-pagefind-ignore={pagefindIgnore}>
 			<Navbar />
 			<LayoutGrid>

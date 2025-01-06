@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 const path = Astro.url.pathname;
 ---
 <nav>
-  <a class="site-title" href="/">Spectre</a>
+  <a class="site-title" href="/">Wheelsblog V7</a>
   <ul>
     <li>
       <a href="/blog" class:list={{ active: path === '/blog' }}>Blog</a>
@@ -18,7 +18,7 @@ const path = Astro.url.pathname;
       <div id="search-results"></div>
     </li>
     <li>
-      <button id="toggle-rendering">Toggle BG</button>
+      <button id="toggle-rendering" class="site-title">Toggle BG</button>
     </li>
   </ul>
   <button class="mobile-nav-toggle">
@@ -174,7 +174,7 @@ const path = Astro.url.pathname;
     padding: .25rem .5rem;
   }
 
-  nav a:hover, nav a:focus-visible, nav a.active {
+  nav a:hover, nav a:focus-visible, nav a.active, nav button:hover, nav button:active {
     background-color: var(--primary);
     outline: none;
   }
