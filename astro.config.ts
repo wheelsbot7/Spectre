@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 import spectre from "./package/src";
 import node from "@astrojs/node";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel";
 
 import icon from "astro-icon";
 import rehypeCallouts from "rehype-callouts";
@@ -18,7 +18,7 @@ const calloutOptions = {
 // https://astro.build/config
 export default defineConfig({
 	site: "https://wheelsbot.dev",
-	output: "server",
+	output: "static",
 	markdown: {
 		remarkPlugins: [],
 		rehypePlugins: [[rehypeCallouts, calloutOptions]],
