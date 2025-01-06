@@ -1,7 +1,7 @@
 ---
 title: Fedora Linux Fortinac Install Guide
 createdAt: 10/08/2024
-image: "../assets/spectre.png"
+image: "../assets/mdi--terminal.png"
 tags:
   - fedora
   - linux

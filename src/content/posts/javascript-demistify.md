@@ -1,7 +1,7 @@
 ---
 title: "What even is a Web Framework anyway?"
 draft: false
-image: "../assets/spectre.png"
+image: "../assets/webFrame.png"
 createdAt: 11-11-2024
 tags:
   - guide
