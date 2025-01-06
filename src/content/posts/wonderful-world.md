@@ -1,7 +1,7 @@
 ---
 title: The Wonderful World of Dotfiles
 createdAt: 12-30-2024
-draft: false
+draft: true
 image: "../assets/folder.svg"
 tags:
   - guide
