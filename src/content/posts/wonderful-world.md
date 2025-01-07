@@ -139,3 +139,14 @@ functionality and customization are not mutually exclusive.
 
 LazyVim is developed by the creator of the Lazy.nvim plugin manager, and was
 designed explicitly to provide easy customization without starting from scratch.
+The plugin manager itself is already the most popular one and is considered the
+default by most plugin developers. Compatibility and extensibility are the real
+strengths of this setup. Really, there's not much else to go over, everything
+else that makes LazyVim great is just the inclusion of things I complained about
+NVChad missing. Still check out kickstart first, but after that, I
+wholeheartedly recommend LazyVim.
+
+This whole "convenience vs customization" dichotomy is a common theme in
+dotfiles. Hell, it's a theme in software as a whole. Arch is so customizable it
+doesn't even ship with a GUI by default, which is why EndeavorOS and Manjaro
+exist to fill that niche.
