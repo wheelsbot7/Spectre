@@ -1,7 +1,7 @@
 ---
 title: The Wonderful World of Dotfiles
 createdAt: 12-30-2024
-draft: true
+draft: false
 image: "../assets/folder.svg"
 tags:
   - guide
@@ -130,24 +130,12 @@ turned to Neovim to avoid. If you want to get base46 working with any other
 plugin, you'll find that NVChad doesn't mix well with anything but itself. This,
 to be clear, is totally fine on its own. NVChad already provides more than
 enough, and I can say you'll have a fine experience even if you only use default
-plugins. It's just not for me.
+plugins. It's just not for me. Mostly because _another_ setup proves default
+functionality and customization are not mutually exclusive.
 
-> [!note]
->
-> This is a callout section that works in neovim, but it might not work in Astro
+### LazyVim
 
-> [!important]
->
-> This one's pretty real fr fr
+![LazyVim's default start screen, showing a list of options with their respective keybind](../assets/lazyvim.png)
 
-> [!caution]
->
-> DON'T DO THIS NO
-
-> [!warning]
->
-> DON'T DO THIS EITHER NONOONONONONONONONONONONONO
-
-> [!tip]
->
-> don't do this ever okay?
+LazyVim is developed by the creator of the Lazy.nvim plugin manager, and was
+designed explicitly to provide easy customization without starting from scratch.
