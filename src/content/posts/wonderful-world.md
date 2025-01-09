@@ -149,4 +149,48 @@ wholeheartedly recommend LazyVim.
 This whole "convenience vs customization" dichotomy is a common theme in
 dotfiles. Hell, it's a theme in software as a whole. Arch is so customizable it
 doesn't even ship with a GUI by default, which is why EndeavorOS and Manjaro
-exist to fill that niche.
+exist to fill that niche. It really exists on a sliding scale. NVChad is
+convenient _because_ it's not very customizable, and vice versa for kickstart.
+LazyVim just happens to strike a balance that appeals to me. Don't take my
+recommendation at face value. Ask yourself what you want out of a Neovim config
+and go from there. Or try them all and decide later! Another advantage of
+dotfiles is dead-simple backups and restores. LazyVim even includes a simple
+bash script that will do it automatically:
+
+```bash
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+
+I say this because the next and last example of dotfiles I'd like to go over is
+a lot harder to swap out whenever you please, because it configures something
+much more fundamental than a text editor.
+
+## ![Hyprland logo](../assets/simple-icons--hyprland.svg) Hyprland
+
+![An example themed Hyprland configuration](../assets/hypr.png)
+
+Hyprland is a lot harder to configure on your own, as it ships with no default
+keybinds. Every single action must be set manually, and it's hard to know which
+actions will be used more often without already having experience navigating a
+tiling window manager. This is where pre-configured dotfiles would be really
+useful, but the problem there is that each configuration has different bindings
+for simple actions with the only common link being the use of the "Meta"[^2] key
+as a modifier. That much makes sense, that button is normally only used for
+basic desktop environment actions, and Hyprland is effectively filling that
+role. But if you look at the list of official and unofficial desktop
+environments on
+[ArchWiki](https://wiki.archlinux.org/title/Desktop_environment), you won't find
+Hyprland there. That's because the definition of a desktop environment is really
+fuzzy and despite containing its own ecosystem of utilities, Hyprland is just a
+lot easier to categorize as a Wayland compositor. This is _way_ more specific,
+as it involves the bare-metal processes that decide which pixels light up and
+when.
+
+[^2]:
+    Also called the "Super" key, but more easily recognizable as the Windows key
