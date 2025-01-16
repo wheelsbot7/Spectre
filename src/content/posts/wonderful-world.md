@@ -206,10 +206,10 @@ that's no way to learn. Instead, a more useful scale for Hyprland is "Dazzling
 vs. Daily Driver".
 
 Honestly I'm surprised it took me this long to talk about ricing, as it's a
-pretty important part of dotfiles. The term comes from an acronym in car
-culture, where RICE stands for "Race Inspired Cosmetic Enhancement"[^3]. A good
-example is when you put a massive, flashy spoiler on an ordinary vehicle you'd
-find in an office parking lot. Obviously your 2008 Honda Civic doesn't need any
+pretty important part of dotfiles. The term is an acronym from car culture,
+where RICE stands for "Race Inspired Cosmetic Enhancement"[^3]. A good example
+is when you put a massive, flashy spoiler on an ordinary vehicle you'd find in
+an office parking lot. Obviously your 2008 Honda Civic doesn't need any
 downforce, it's not gonna lose grip going 70mph in a straight line. But because
 high-performance racing cars have those features, they end up being desirable
 even without the benefit it was designed to provide.
@@ -218,3 +218,14 @@ even without the benefit it was designed to provide.
     It's worth mentioning that this is a post-hoc acronym. It's generally agreed
     that it's called "ricing" because it sounds like racing, and the practice
     started in Asian countries.
+
+Hyprland ricing is kind of like that, because while many features are designed
+for productivity, their inaccessible and technical nature can make you feel more
+experienced, even if it's not necessarily making you more productive. The first
+config I want to cover is literally called "My Linux For Work", and there are
+still plenty of unnecessary flourishes that serve exclusively to make the
+desktop more aesthetically pleasing.
+
+### ML4W (My Linux For Work)
+
+This config is firmly planted on the "Daily Driver" side of the spectrum.
