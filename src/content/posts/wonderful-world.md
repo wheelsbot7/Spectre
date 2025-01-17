@@ -217,7 +217,12 @@ even without the benefit it was designed to provide.
 [^3]:
     It's worth mentioning that this is a post-hoc acronym. It's generally agreed
     that it's called "ricing" because it sounds like racing, and the practice
-    started in Asian countries.
+    started in Asian countries[^4].
+
+[^4]:
+    Sidenote to this sidenote, but I didn't expect so many car terms to end up
+    in this post. Guess there's a lot in common between 2 groups obsessed with
+    optimizing a machine past the point of practicality.
 
 Hyprland ricing is kind of like that, because while many features are designed
 for productivity, their inaccessible and technical nature can make you feel more
