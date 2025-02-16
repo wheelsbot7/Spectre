@@ -233,4 +233,6 @@ desktop more aesthetically pleasing.
 
 ### ML4W (My Linux For Work)
 
-This config is firmly planted on the "Daily Driver" side of the spectrum.
+This config is firmly planted on the "Daily Driver" side of the spectrum. I
+mean, you saw the title, it had to be abbreviated because who has the time to
+type out "My Linux For Work" every time? This is a busy config for busy people.
