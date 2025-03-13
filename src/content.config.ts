@@ -25,6 +25,16 @@ const socials = defineCollection({
   }),
 });
 
+const langs = defineCollection({
+  loader: file("src/content/langs.json"),
+  schema: z.object({
+    id: z.number(),
+    icon: z.custom<keyof typeof iconsJson>(),
+    text: z.string(),
+  }),
+});
+
+
 const workExperience = defineCollection({
   loader: file("src/content/work.json"),
   schema: z.object({
@@ -85,4 +95,5 @@ export const collections = {
   quickInfo,
   socials,
   workExperience,
+  langs,
 };
