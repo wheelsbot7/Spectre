@@ -2,7 +2,7 @@
 title: The Wonderful World of Dotfiles
 createdAt: 12-30-2024
 draft: false
-image: "../assets/folder.svg"
+image: "../assets/folder.png"
 tags:
   - guide
   - linux
@@ -31,7 +31,7 @@ some other app-specific folder. I've been confused by Linux's lack of a "Program
 Files" folder but it's worth it if I can find the files I'll actually edit.
 
 The main strength of Linux has always been its customization, but that
-inevitably scares off people don't care. It's like that old community in-joke:
+inevitably scares off people who don't care. It's like that old community in-joke:
 "The best part of Linux is that you can customize anything, the worst part of
 Linux is that you _have to_ customize _everything_". Thankfully, the existence
 of a dotfiles folder partially negates this potential hurdle by making it
@@ -100,6 +100,8 @@ Ehrmantraut "Here's what you're gonna do" format.
 > tells you, write it down if you have to, just pay attention and restart after
 > any changes to avoid pouring over every line looking for which one caused an
 > error. You got all that?
+
+![Mike Ehrmantraut from Breaking Bad](../assets/mike-e.jpg) 
 
 Well you better have, because up next are the advanced setups with a ton of
 pre-configured features that are definitely more usable out of the box, but work
@@ -232,6 +234,8 @@ still plenty of unnecessary flourishes that serve exclusively to make the
 desktop more aesthetically pleasing.
 
 ### ML4W (My Linux For Work)
+
+![The ML4W desktop with a file explorer, terminal, and 2 configuration apps open](../assets/ML4W.png) 
 
 This config is firmly planted on the "Daily Driver" side of the spectrum. I
 mean, you saw the title, it had to be abbreviated because who has the time to
