@@ -31,12 +31,12 @@ some other app-specific folder. I've been confused by Linux's lack of a "Program
 Files" folder but it's worth it if I can find the files I'll actually edit.
 
 The main strength of Linux has always been its customization, but that
-inevitably scares off people who don't care. It's like that old community in-joke:
-"The best part of Linux is that you can customize anything, the worst part of
-Linux is that you _have to_ customize _everything_". Thankfully, the existence
-of a dotfiles folder partially negates this potential hurdle by making it
-trivial to copy someone else's setup. Which brings me to the reason I wanted to
-make this post, and the software I'm currently writing in...
+inevitably scares off people who don't care. It's like that old community
+in-joke: "The best part of Linux is that you can customize anything, the worst
+part of Linux is that you _have to_ customize _everything_". Thankfully, the
+existence of a dotfiles folder partially negates this potential hurdle by making
+it trivial to copy someone else's setup. Which brings me to the reason I wanted
+to make this post, and the software I'm currently writing in...
 
 ## ![Neovim logo](../assets/devicon--neovim.svg) Neovim
 
@@ -101,7 +101,7 @@ Ehrmantraut "Here's what you're gonna do" format.
 > any changes to avoid pouring over every line looking for which one caused an
 > error. You got all that?
 
-![Mike Ehrmantraut from Breaking Bad](../assets/mike-e.jpg) 
+![Mike Ehrmantraut from Breaking Bad](../assets/mike-e.jpg)
 
 Well you better have, because up next are the advanced setups with a ton of
 pre-configured features that are definitely more usable out of the box, but work
@@ -235,8 +235,34 @@ desktop more aesthetically pleasing.
 
 ### ML4W (My Linux For Work)
 
-![The ML4W desktop with a file explorer, terminal, and 2 configuration apps open](../assets/ML4W.png) 
+![The ML4W desktop with a file explorer, terminal, and 2 configuration apps open](../assets/ML4W.png)
 
 This config is firmly planted on the "Daily Driver" side of the spectrum. I
 mean, you saw the title, it had to be abbreviated because who has the time to
 type out "My Linux For Work" every time? This is a busy config for busy people.
+But at the same time, the main reason tiling window managers are generally
+faster is keyboard shortcuts, and if you're coming at this from a work
+perspective, you're not gonna put aside an hour to learn how to use something
+you don't technically need. Maybe this is biased from years of working with
+boomers who never knew you could save a document with <kbd>CTRL</kbd> +
+<kbd>S</kbd>, but the point still stands that if you expect people to use
+something for work, you can't just chuck a manual at them and leave them to the
+wolves.
+
+This config comes with 3 main convenience tools: a configuration GUI app, a
+dedicated keybind for searching keybinds, and a functional top-bar that ensures
+every essential action is still doable with just a mouse. This might seem
+similar to NVChad's walled garden approach, but the backend here isn't some
+bespoke system, all it does is save whatever you punch into the inputs as
+`~/.config/hypr/hyprland.conf`. It's the thinnest possible layer between the
+user and their dotfiles, which is how it should be! My only problem with this
+system is how it gets around the `.config` folder being hidden by default. In
+order to have everything visible, it places a shortcut[^5] in your _actual_
+.config folder that points to an entirely new folder in the user's home
+directory.
+
+[^5]:
+    Technically a "symlink", meaning symbolic link, but it's basically the same
+    thing. Symlink just sounds cooler and brings to mind the image of a portal
+    connecting 2 points in your files. I guess it just feels more concrete when
+    you can `cd` through a shortcut instead of just double-clicking it.
