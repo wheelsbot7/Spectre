@@ -266,3 +266,26 @@ directory.
     thing. Symlink just sounds cooler and brings to mind the image of a portal
     connecting 2 points in your files. I guess it just feels more concrete when
     you can `cd` through a shortcut instead of just double-clicking it.
+
+But, ultimately, this doesn't bother me nearly as much as NVChad. This bit of
+restructuring can easily be worked around or fully reversed. This is still a
+configuration for Hyprland, it's not trying to add exclusive systems or deeply
+integrated apps like a fully-fledged desktop environment. That distinction goes
+to the most popular Hyprland config on GitHub, and one that went through a major
+restructuring while I was writing this.
+
+### HyDE (formerly Hyprdots)
+
+![HyDE's desktop with the Catppuccin Mocha color palette applied](../assets/theme_mocha_1.png)
+
+I gave this one a shot when it was still Hyprdots, and fully bounced off of it
+when I saw that one of the themes was called "edge-runners" and looked like
+this:
+
+![HyDE's desktop with the edge-runners theme applied](../assets/theme_cedge_1.png)
+
+Looking back on it, that was pretty shallow of me, but the sentiment wasn't
+necessarily faulty. There are a ton of rices out there that are fully themed
+around a specific media property (usually anime), and that's a pretty reliable
+sign that they were made specifically for 1 screenshot before reverting back to
+something actually usable.
