@@ -39,7 +39,8 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		<meta name="theme-color" content={themeColor}>
 
 		<link rel="canonical" href={Astro.site} />
-
+    
+    <meta property="og:site_name" content="Wheelsblog V7">
 		<meta name="og:title" content={title} />
 		{description && <meta name="og:description" content={description} />}
 		<meta name="og:image" content={image?.src || '/img/og.png'} />
