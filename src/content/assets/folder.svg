@@ -7,6 +7,9 @@
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    width="148.763"
    height="101.706"
+   inkscape:export-filename="folder.png"
+   inkscape:export-xdpi="696.94751"
+   inkscape:export-ydpi="696.94751"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -22,10 +25,10 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="5.5278807"
-     inkscape:cx="75.526232"
-     inkscape:cy="75.345331"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:cx="75.616683"
+     inkscape:cy="75.435781"
+     inkscape:window-width="1206"
+     inkscape:window-height="693"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -174,10 +177,10 @@
        inkscape:menu-tooltip="Basic specular bevel to use for building textures"
        style="color-interpolation-filters:sRGB"
        id="filter149"
-       x="-1.2212798"
-       y="-1.1525554"
-       width="3.4425596"
-       height="3.3051109">
+       x="-1.2217392"
+       y="-1.1522741"
+       width="3.4434783"
+       height="3.3045481">
       <feGaussianBlur
          stdDeviation="6"
          in="SourceGraphic"
@@ -331,23 +334,23 @@
      style="font-size:29.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19);display:inline;fill:#000000;filter:url(#filter149)"
      transform="matrix(1.6844224,0,0,1.6844224,20.816503,-48.463277)"><tspan
        x="19.117188"
-       y="71.310922"
-       id="tspan8"><tspan
+       y="69.920543"
+       id="tspan2"><tspan
          style="font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font'"
-         id="tspan7">
+         id="tspan1">
 </tspan></tspan><tspan
        x="19.117188"
-       y="105.41639"
-       id="tspan10"><tspan
-         dx="0 17.660135 17.660135 17.660137 17.660133 17.660133 17.660141 17.660133 17.660133 17.660141 17.660126 17.660141 17.660141 17.660126 17.660141 17.660141 17.660126 17.660126 17.660156 17.660126 17.660126 17.660156 17.660126 17.660126 17.660156 17.660126 17.660126 17.660126 17.660156 17.660126 17.660156 17.660095 17.660156 17.660156 17.660095 17.660156 17.660156 17.660095 17.660156 17.660156"
+       y="103.41001"
+       id="tspan4"><tspan
+         dx="0 8.1546535 8.1546535 8.1546535 8.1546535 16.309307 16.309307 16.309311 16.309303 16.309303 16.309311 16.309311 16.309311 14.666641 6.5119934 16.191986 14.666656 8.1546478 17.13063 8.1546631 9.7973175 8.1546326 10.41333 6.5119934 16.309296 16.309296 9.59198 16.309326 14.842651 14.607971 14.373291 8.1546631 15.927979 14.666626 6.5119934 24.434662 10.4133 8.1546631 9.7973022 8.1546631"
          style="font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font'"
-         id="tspan9">    dependencies = { &quot;luarocks.nvim&quot; },
+         id="tspan3">    dependencies = { &quot;luarocks.nvim&quot; },
 </tspan></tspan><tspan
        x="19.117188"
-       y="142.45039"
-       id="tspan12"><tspan
-         dx="0 17.660135 17.660135 17.660137 17.660133 17.660133 17.660141 17.660133 17.660133 17.660141 17.660126 17.660141 17.660141 17.660126"
+       y="140.07664"
+       id="tspan6"><tspan
+         dx="0 8.1546535 8.1546535 8.1546535 8.1546535 16.309307 16.221302 8.1546555 14.666649 8.1546478 17.130638 8.1546555 9.7973099 9.7973175"
          style="font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font'"
-         id="tspan11">    opts = {}
+         id="tspan5">    opts = {}
 </tspan></tspan></text>
 </svg>
