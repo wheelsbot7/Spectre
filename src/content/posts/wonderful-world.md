@@ -288,4 +288,53 @@ Looking back on it, that was pretty shallow of me, but the sentiment wasn't
 necessarily faulty. There are a ton of rices out there that are fully themed
 around a specific media property (usually anime), and that's a pretty reliable
 sign that they were made specifically for 1 screenshot before reverting back to
-something actually usable.
+something actually usable. Far from ML4W, this is closer to ML4Reddit. But it
+seems this focus on style payed off, since their now abandoned GitHub repository
+currently sits at 8.7k stars. While I wasn't looking, it appears the original
+creator went radio silent and the only collaborator left forked the project with
+a rebrand. They're currently putting the dotfiles through a major tune-up with a
+clear plan moving forward, so give it a look if you know your way around
+dotfiles or shell scripts, they could use the extra hands.
+
+Anyway, since I am nothing if not predictable, there's a third option I
+personally use and that I think bridges the gap between form and function in a
+way that makes it easy to recommend. To avoid repetition, I'll try to write the
+next section as a series of Haikus. Predictability was never in the cards.
+
+### KooL's Hyprland Dots
+
+![KooL's Hyprland Dots Desktop](../assets/Sample-Tokyo-waybar.png)
+
+This one's really fun
+
+It's easy to customize
+
+And easy to use
+
+---
+
+Works on more than Arch
+
+Nix, Fedora, Ubuntu
+
+Even Tumbleweed
+
+---
+
+No custom apps here
+
+Just a bunch of helper scripts
+
+That are bound to keys
+
+---
+
+Also I'm biased
+
+I contributed some code
+
+I love open source
+
+![A commit graph showing 2 commits. The scale of the graph is so large that 2 commits doesn't even occupy one pixel](../assets/commit_history.png)
+
+## Conclusion
