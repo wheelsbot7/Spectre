@@ -338,3 +338,16 @@ I love open source
 ![A commit graph showing 2 commits. The scale of the graph is so large that 2 commits doesn't even occupy one pixel](../assets/commit_history.png)
 
 ## Conclusion
+
+The phenomenon of dotfiles exemplifies my favorite part of open source. People
+can just share what works for them and you can yank it for yourself, tear out
+all the parts you don't like, and add whatever you want! It also just feels
+great after years of putting up with a bunch of little annoyances with Windows
+that Microsoft wouldn't let me fix. No wrestling with OneDrive, Edge, or
+Updates, and if I **do** have to mess with something, there's not a
+multi-billion dollar corporation working to make it harder. I will take 1000
+dependency conflicts over 1 mandatory update every time.
+
+Signing off: Wheelsbot
+
+~~_Down in the .conf mines, and the shift never ends._~~
