@@ -1,6 +1,6 @@
 ---
 title: The Wonderful World of Dotfiles
-createdAt: 12-30-2024
+createdAt: 03-19-2025
 draft: false
 image: "../assets/folder.png"
 tags:
