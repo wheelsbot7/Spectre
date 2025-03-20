@@ -1,40 +1,41 @@
 {
-	"name": "Wheelsblog V7",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"start": "node dist/server/entry.mjs",
-		"preview": "astro preview",
-		"astro": "astro",
-		"postbuild": "pagefind --site dist/client"
-	},
-	"dependencies": {
-		"@astrojs/mdx": "^4.2.1",
-		"@astrojs/node": "^9.1.3",
-		"@astrojs/sitemap": "^3.3.0",
-		"@astrojs/vercel": "^8.1.2",
-		"@expressive-code/plugin-line-numbers": "^0.38.3",
-		"@iconify-json/fa6-brands": "^1.2.5",
-		"@iconify-json/lineicons": "^1.2.4",
-		"@iconify-json/lucide": "^1.2.31",
-		"@iconify-json/material-symbols": "^1.2.16",
-		"@iconify-json/mdi": "^1.2.3",
-		"@iconify-json/ri": "^1.2.5",
-		"@iconify/json": "^2.2.318",
-		"@iconify/utils": "^2.3.0",
-		"astro": "^5.5.3",
-		"astro-expressive-code": "^0.38.3",
-		"astro-icon": "^1.1.5",
-		"astro-pagefind": "^1.8.3",
-		"medium-zoom": "^1.1.0",
-		"preact": "^10.26.4",
-		"rehype-callouts": "^1.4.1",
-		"sharp": "^0.33.5"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"pagefind": "^1.3.0"
-	}
+  "name": "Wheelsblog V7",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "node dist/server/entry.mjs",
+    "preview": "astro preview",
+    "astro": "astro",
+    "postbuild": "pagefind --site dist/client"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.2.1",
+    "@astrojs/node": "^9.1.3",
+    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/vercel": "^8.1.2",
+    "@expressive-code/plugin-line-numbers": "^0.38.3",
+    "@iconify-json/fa6-brands": "^1.2.5",
+    "@iconify-json/lineicons": "^1.2.4",
+    "@iconify-json/lucide": "^1.2.31",
+    "@iconify-json/material-symbols": "^1.2.16",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/ri": "^1.2.5",
+    "@iconify/json": "^2.2.318",
+    "@iconify/utils": "^2.3.0",
+    "astro": "^5.5.3",
+    "astro-expressive-code": "^0.38.3",
+    "astro-icon": "^1.1.5",
+    "astro-pagefind": "^1.8.3",
+    "medium-zoom": "^1.1.0",
+    "path-to-regexp": "^8.2.0",
+    "preact": "^10.26.4",
+    "rehype-callouts": "^1.4.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "pagefind": "^1.3.0"
+  }
 }
