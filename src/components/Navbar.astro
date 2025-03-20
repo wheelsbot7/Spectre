@@ -14,7 +14,7 @@ const path = Astro.url.pathname;
     </li>
     <li class="nav-separator">/</li>
     <li>
-      <input id="search" type="text" placeholder="Search (Ctrl+K)" />
+      <input id="search" type="text" placeholder="Search (Ctrl+/)" />
       <div id="search-results"></div>
     </li>
     <li>
@@ -32,7 +32,7 @@ const path = Astro.url.pathname;
 
   let focusIndex = -1;
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'k' && e.ctrlKey) {
+    if (e.key === '/' && e.ctrlKey) {
       searchElement.focus();
     }
 
@@ -75,7 +75,7 @@ const path = Astro.url.pathname;
   });
 
   searchElement?.addEventListener('blur', () => {
-    searchElement.placeholder = 'Search (Ctrl+K)';
+    searchElement.placeholder = 'Search (Ctrl+/)';
   });
 
   searchElement?.addEventListener('blur', () => {
@@ -132,7 +132,7 @@ const path = Astro.url.pathname;
     if (window.matchMedia('(max-width: 640px)').matches) {
       searchElement.placeholder = 'Search';
     } else {
-      searchElement.placeholder = 'Search (Ctrl+K)';
+      searchElement.placeholder = 'Search (Ctrl+/)';
     }
   }
 
