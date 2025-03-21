@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Checkboxes from "../components/Checkboxes.svelte";
+---
+
+<Layout
+  title={"Svelte Test Page"}
+  description={"Stop reading this please."}
+	pagefindIgnore
+>
+  <div class="notfound-container" slot="404">
+<Checkboxes client:only="svelte"/>
+  </div>
+</Layout>
+<style>
+  .notfound-container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .notfound-container h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .notfound-container p {
+    font-size: 1.25em;
+  }
+
+  .block-link {
+    margin-top: 1rem;
+  }
+</style>
