@@ -1,50 +1,51 @@
 <script>
-  let scoops = $state(1);
-  let flavours = $state(["Mint choc chip"]);
+  let distro = $state("apt");
+  let packages = $state(["gcc"]);
 
-  let menu = ["Cookies and cream", "Mint choc chip", "Raspberry ripple"];
+  let programs = ["gcc", "qbittorrent", "wine"];
 
-  function join(flavours) {
-    if (flavours.length === 1) return flavours[0];
-    return `${flavours.slice(0, -1).join(", ")} and ${flavours[flavours.length - 1]}`;
+  function join(packages) {
+    if (packages.length === 1) return packages[0];
+    return `${packages.slice(0, -1).join(" ")} ${packages[packages.length - 1]}`;
   }
 </script>
 
-<h2>Size</h2>
+<h2>Distro</h2>
 
 <label>
-  <input type="radio" bind:group={scoops} value={1} />
-  One scoop
+  <input type="radio" bind:group={distro} value={"apt"} />
+  Ubuntu/Debian
 </label>
 
 <label>
-  <input type="radio" bind:group={scoops} value={2} />
-  Two scoops
+  <input type="radio" bind:group={distro} value={"dnf"} />
+  Fedora
 </label>
 
 <label>
-  <input type="radio" bind:group={scoops} value={3} />
-  Three scoops
+  <input type="radio" bind:group={distro} value={"pacman"} />
+  Arch
 </label>
 
-<h2>Flavours</h2>
+<h2>Commands</h2>
 
-<select multiple bind:value={flavours}>
-  {#each menu as flavour}
-    <option value={flavour}>
-      {flavour}
-    </option>
-  {/each}
-</select>
+{#each programs as program}
+  <label>
+    <input type="checkbox" bind:group={packages} value={program} />
+    {program}
+  </label>
+{/each}
 
-{#if flavours.length === 0}
-  <p>Please select at least one flavour</p>
-{:else if flavours.length > scoops}
-  <p>Can't order more flavours than scoops!</p>
+{#if packages.length === 0}
+  <p>Please select at least one package</p>
 {:else}
   <p>
-    You ordered {scoops}
-    {scoops === 1 ? "scoop" : "scoops"}
-    of {join(flavours)}
+    Here's the command for {distro}:
+    {distro === "apt"
+      ? "sudo apt install "
+      : distro === "dnf"
+        ? "sudo dnf install"
+        : "sudo pacman -S"}
+    {join(packages)}
   </p>
 {/if}
