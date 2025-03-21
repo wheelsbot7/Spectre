@@ -35,7 +35,7 @@
     "preact": "^10.26.4",
     "rehype-callouts": "^1.4.1",
     "sharp": "^0.33.5",
-    "svelte": "^5.24.1",
+    "svelte": "^5.25.0",
     "typescript": "^5.8.2"
   },
   "devDependencies": {
