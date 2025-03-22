@@ -56,7 +56,22 @@
               type="checkbox"
               bind:group={packages}
               value={details.program}
-            />
+            />{#if details.icon}
+              <img
+                class="glow-icon"
+                src="/soft-icons/{details.icon}"
+                alt={name}
+                width="24"
+                height="24"
+                style="filter:
+                invert(42%)
+                sepia(33%)
+                saturate(6029%)
+                hue-rotate(238deg)
+                brightness(99%)
+                contrast(94%)"
+              />
+            {/if}
             {name}
           </label>
         </li>

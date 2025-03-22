@@ -6,7 +6,7 @@
         "program": "owncloud-client"
       },
       "OpenJDK JRE": {
-        "icon": "openjsk.svg",
+        "icon": "openjdk.svg",
         "program": "jre-openjdk"
       }
     }
@@ -50,7 +50,7 @@
         "program": "firefox"
       },
       "LibreWolf": {
-        "icon": "firefox.svg",
+        "icon": "librewolf.svg",
         "program": "librewolf-bin"
       }
     }
@@ -64,9 +64,6 @@
       "OpenJDK": {
         "icon": "openjdk.svg",
         "program": "jdk-openjdk"
-      },
-      "OpenJDK Java 8 JDK": {
-        "program": "jdk8-openjdk"
       },
       "gcc and g++": {
         "icon": "gnu.svg",
@@ -99,21 +96,31 @@
       "Kodi": {
         "icon": "kodi.svg",
         "program": "kodi"
+      },
+      "VLC": {
+        "icon": "vlcmediaplayer.svg",
+        "program": "vlc"
       }
     }
   },
   {
-    "Messaging": {}
+    "Messaging": {
+      "Vesktop": {
+        "icon": "vencord.svg",
+        "program": "vesktop-bin"
+      }
+    }
   },
   {
-    "Gaming": {}
-  },
-  {
-    "Other": {
+    "Gaming": {
       "Lutris": {
         "icon": "lutris.svg",
         "program": "lutris"
-      },
+      }
+    }
+  },
+  {
+    "Other": {
       "Virtualbox": {
         "icon": "virtualbox.svg",
         "program": "virtualbox"
