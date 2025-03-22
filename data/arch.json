@@ -8,6 +8,138 @@
       "OpenJDK JRE": {
         "icon": "openjdk.svg",
         "program": "jre-openjdk"
+      },
+      "Alacritty": {
+        "icon": "alacritty.svg",
+        "program": "alacritty"
+      },
+      "Kitty": {
+        "icon": "cat.svg",
+        "program": "kitty"
+      },
+      "rattler-build (conda package manager)": {
+        "icon": "anaconda.svg",
+        "program": "rattler-build"
+      },
+      "Bitwarden": {
+        "icon": "bitwarden.svg",
+        "program": "bitwarden"
+      },
+      "Deluge": {
+        "icon": "deluge.svg",
+        "program": "deluge"
+      },
+      "Electron": {
+        "icon": "electron.svg",
+        "program": "electron"
+      },
+      "FFmpeg": {
+        "icon": "ffmpeg.svg",
+        "program": "ffmpeg"
+      },
+      "Filezilla": {
+        "icon": "filezilla.svg",
+        "program": "filezilla"
+      },
+      "Flatpak": {
+        "icon": "flatpak.svg",
+        "program": "flatpak"
+      },
+      "Git + Lazygit": {
+        "icon": "git.svg",
+        "program": "git lazygit"
+      },
+      "Gitea": {
+        "icon": "gitea.svg",
+        "program": "gitea"
+      },
+      "GitLab": {
+        "icon": "gitlab.svg",
+        "program": "gitlab"
+      },
+      "Gnome Terminal": {
+        "icon": "gnometerminal.svg",
+        "program": "gnome-terminal"
+      },
+      "Hyprland": {
+        "icon": "hyprland.svg",
+        "program": "hyprland"
+      },
+      "I3": {
+        "icon": "i3.svg",
+        "program": "i3-wm"
+      },
+      "KDE Plasma": {
+        "icon": "kdeplasma.svg",
+        "program": "plasma-meta"
+      },
+      "Less": {
+        "icon": "less.svg",
+        "program": "less"
+      },
+      "Nextcloud": {
+        "icon": "nextcloud.svg",
+        "program": "nextcloud"
+      },
+      "Nix": {
+        "icon": "nixos.svg",
+        "program": "nix"
+      },
+      "Nvidia": {
+        "icon": "nvidia.svg",
+        "program": "nvidia"
+      },
+      "Nuget": {
+        "icon": "nuget.svg",
+        "program": "nuget"
+      },
+      "Proton VPN": {
+        "icon": "protonvpn.svg",
+        "program": "proton-vpn-gtk-app"
+      },
+      "QBittorrent": {
+        "icon": "qbittorrent.svg",
+        "program": "qbittorrent"
+      },
+      "QEMU": {
+        "icon": "qemu.svg",
+        "program": "qemu-full"
+      },
+      "RClone": {
+        "icon": "rclone.svg",
+        "program": "rclone"
+      },
+      "Subversion": {
+        "icon": "subversion.svg",
+        "program": "subversion"
+      },
+      "Syncthing": {
+        "icon": "syncthing.svg",
+        "program": "syncthing"
+      },
+      "Tmux": {
+        "icon": "tmux.svg",
+        "program": "tmux"
+      },
+      "Vulkan": {
+        "icon": "vulkan.svg",
+        "program": "vulkan-tools"
+      },
+      "Wayland": {
+        "icon": "wayland.svg",
+        "program": "wayland"
+      },
+      "Wezterm": {
+        "icon": "wezterm.svg",
+        "program": "wezterm"
+      },
+      "WireGuard": {
+        "icon": "wireguard.svg",
+        "program": "wireguard-tools"
+      },
+      "ZSH": {
+        "icon": "zsh.svg",
+        "program": "zsh"
       }
     }
   },
@@ -36,6 +168,42 @@
       "QTCreator": {
         "icon": "qt.svg",
         "program": "qtcreator"
+      },
+      "Emacs": {
+        "icon": "gnuemacs.svg",
+        "program": "emacs"
+      },
+      "Helix": {
+        "icon": "helix.svg",
+        "program": "helix"
+      },
+      "Jupyter": {
+        "icon": "jupyter.svg",
+        "program": "jupyter-notebook"
+      },
+      "Lapce": {
+        "icon": "lapce.svg",
+        "program": "lapce"
+      },
+      "Micro": {
+        "icon": "microeditor.svg",
+        "program": "micro"
+      },
+      "Nano": {
+        "icon": "nano.svg",
+        "program": "nano"
+      },
+      "Notepadqq (Notepad++-like editor)": {
+        "icon": "notepadplusplus.svg",
+        "program": "notepadqq"
+      },
+      "Obsidian": {
+        "icon": "obsidian.svg",
+        "program": "obsidian"
+      },
+      "Zettlr": {
+        "icon": "zettlr.svg",
+        "program": "zettlr"
       }
     }
   },
@@ -52,6 +220,10 @@
       "LibreWolf": {
         "icon": "librewolf.svg",
         "program": "librewolf-bin"
+      },
+      "TOR Browser": {
+        "icon": "torbrowser.svg",
+        "program": "torbrowser-launcher"
       }
     }
   },
@@ -65,13 +237,189 @@
         "icon": "openjdk.svg",
         "program": "jdk-openjdk"
       },
-      "gcc and g++": {
+      "Gcc and g++": {
         "icon": "gnu.svg",
         "program": "gcc"
       },
-      "make": {
+      "Make": {
         "icon": "make.svg",
         "program": "make"
+      },
+      "Apache HTTP Server": {
+        "icon": "apache.svg",
+        "program": "apache"
+      },
+      "Clang": {
+        "icon": "c.svg",
+        "program": "clang"
+      },
+      "Caddy": {
+        "icon": "caddy.svg",
+        "program": "caddy"
+      },
+      "CMake": {
+        "icon": "cmake.svg",
+        "program": "cmake"
+      },
+      "Composer": {
+        "icon": "composer.svg",
+        "program": "composer"
+      },
+      "Dart": {
+        "icon": "dart.svg",
+        "program": "dart"
+      },
+      "Deno": {
+        "icon": "deno.svg",
+        "program": "deno"
+      },
+      "Django": {
+        "icon": "django.svg",
+        "program": "python-django"
+      },
+      "Docker + Docker Compose": {
+        "icon": "docker.svg",
+        "program": "docker docker-compose"
+      },
+      "Mono (open source .NET implementation)": {
+        "icon": "dotnet.svg",
+        "program": "mono"
+      },
+      "Elixir": {
+        "icon": "elixir.svg",
+        "program": "elixir"
+      },
+      "Erlang": {
+        "icon": "erlang.svg",
+        "program": "erlang"
+      },
+      "ESbuild": {
+        "icon": "esbuild.svg",
+        "program": "esbuild"
+      },
+      "ESlint": {
+        "icon": "eslint.svg",
+        "program": "eslint"
+      },
+      "Flask": {
+        "icon": "flask.svg",
+        "program": "python-flask"
+      },
+      "Godot": {
+        "icon": "godotengine.svg",
+        "program": "godot"
+      },
+      "Go": {
+        "icon": "go.svg",
+        "program": "go"
+      },
+      "Gradle": {
+        "icon": "gradle.svg",
+        "program": "gradle"
+      },
+      "Graphql client CLI": {
+        "icon": "graphql.svg",
+        "program": "graphql-client-cli"
+      },
+      "Graphite": {
+        "icon": "graphite.svg",
+        "program": "graphite"
+      },
+      "GTK (2, 3, and 4)": {
+        "icon": "gtk.svg",
+        "program": "gtk2 gtk3 gtk4"
+      },
+      "Haskell": {
+        "icon": "haskell.svg",
+        "program": "ghc stack"
+      },
+      "Hugo": {
+        "icon": "hugo.svg",
+        "program": "hugo"
+      },
+      "Kotlin": {
+        "icon": "kotlin.svg",
+        "program": "kotlin"
+      },
+      "LaTeX (texlive)": {
+        "icon": "latex.svg",
+        "program": "texlive-latex"
+      },
+      "LLVM": {
+        "icon": "llvm.svg",
+        "program": "llvm"
+      },
+      "Lua": {
+        "icon": "lua.svg",
+        "program": "lua"
+      },
+      "MariaDB": {
+        "icon": "mariadb.svg",
+        "program": "mariadb"
+      },
+      "MDbook": {
+        "icon": "mdbook.svg",
+        "program": "mdbook"
+      },
+      "Mercurial": {
+        "icon": "mercurial.svg",
+        "program": "mercurial"
+      },
+      "Mermaid": {
+        "icon": "mermaid.svg",
+        "program": "mermaid-cli mdbook-mermaid"
+      },
+      "Nginx": {
+        "icon": "nginx.svg",
+        "program": "nginx"
+      },
+      "NPM": {
+        "icon": "npm.svg",
+        "program": "npm"
+      },
+      "Octave": {
+        "icon": "octave.svg",
+        "program": "octave"
+      },
+      "Perl": {
+        "icon": "perl.svg",
+        "program": "perl"
+      },
+      "PHP": {
+        "icon": "php.svg",
+        "program": "php"
+      },
+      "PNPM": {
+        "icon": "pnpm.svg",
+        "program": "pnpm"
+      },
+      "Podman": {
+        "icon": "podman.svg",
+        "program": "podman"
+      },
+      "PostgreSQL": {
+        "icon": "postgresql.svg",
+        "program": "postgresql"
+      },
+      "R": {
+        "icon": "r.svg",
+        "program": "r"
+      },
+      "Rust (rustup)": {
+        "icon": "rust.svg",
+        "program": "rustup"
+      },
+      "SQLite": {
+        "icon": "sqlite.svg",
+        "program": "sqlite"
+      },
+      "Tauri": {
+        "icon": "tauri.svg",
+        "program": "cargo-tauri"
+      },
+      "Zig": {
+        "icon": "zig.svg",
+        "program": "zig"
       }
     }
   },
@@ -80,6 +428,46 @@
       "Krita": {
         "icon": "krita.svg",
         "program": "krita"
+      },
+      "Aseprite": {
+        "icon": "aseprite.svg",
+        "program": "aseprite"
+      },
+      "Blender": {
+        "icon": "blender.svg",
+        "program": "blender"
+      },
+      "GIMP": {
+        "icon": "gimp.svg",
+        "program": "gimp"
+      },
+      "FreeCAD": {
+        "icon": "freecad.svg",
+        "program": "freecad"
+      },
+      "Inkscape": {
+        "icon": "inkscape.svg",
+        "program": "inkscape"
+      }
+    }
+  },
+  {
+    "Audio": {
+      "Ardour": {
+        "icon": "ardour.svg",
+        "program": "ardour"
+      },
+      "Audacity": {
+        "icon": "audacity.svg",
+        "program": "audacity"
+      },
+      "LMMS": {
+        "icon": "lmms.svg",
+        "program": "lmms"
+      },
+      "Musescore": {
+        "icon": "musescore.svg",
+        "program": "musescore"
       }
     }
   },
@@ -87,7 +475,7 @@
     "Office": {
       "LibreOffice": {
         "icon": "libreoffice.svg",
-        "program": "libreoffice"
+        "program": "libreoffice-fresh"
       }
     }
   },
@@ -100,6 +488,18 @@
       "VLC": {
         "icon": "vlcmediaplayer.svg",
         "program": "vlc"
+      },
+      "KDEnlive": {
+        "icon": "kdenlive.svg",
+        "program": "kdenlive"
+      },
+      "MPV": {
+        "icon": "mpv.svg",
+        "program": "mpv"
+      },
+      "OBS": {
+        "icon": "obsstudio.svg",
+        "program": "obs-studio"
       }
     }
   },
@@ -108,6 +508,26 @@
       "Vesktop": {
         "icon": "vencord.svg",
         "program": "vesktop-bin"
+      },
+      "Discord": {
+        "icon": "discord.svg",
+        "program": "discord"
+      },
+      "Element": {
+        "icon": "element.svg",
+        "program": "element-desktop"
+      },
+      "Signal": {
+        "icon": "signal.svg",
+        "program": "signal-desktop"
+      },
+      "Telegram": {
+        "icon": "telegram.svg",
+        "program": "telegram-desktop"
+      },
+      "Thunderbird": {
+        "icon": "thunderbird.svg",
+        "program": "thunderbird"
       }
     }
   },
@@ -116,6 +536,10 @@
       "Lutris": {
         "icon": "lutris.svg",
         "program": "lutris"
+      },
+      "Steam": {
+        "icon": "steam.svg",
+        "program": "steam"
       }
     }
   },
