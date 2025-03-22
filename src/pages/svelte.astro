@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import Card from "../components/Card.astro";
 import Checkboxes from "../components/Checkboxes.svelte";
 ---
 
@@ -9,9 +9,31 @@ import Checkboxes from "../components/Checkboxes.svelte";
   description={"Stop reading this please."}
 	pagefindIgnore
 >
-  <div class="layout-grid-right" slot="right">
-      <Checkboxes client:only="svelte"/>
+  <div class="left" slot="left">
+    <Card class="toc-card">
+      <h2 class="no-mt">Info</h2>
+      <p class="overview-list">
+        This is an install script generator. Please select a distro before selecting any packages.
+      </p>
+    </Card>
   </div>
+  <article slot="right" data-pagefind-body>
+    <Card>
+      <div class="article-header" id="_top" data-pagefind-ignore>
+        <div class="header">
+          <div>
+            <h1 class="no-mt article-h1"></h1>
+          </div>
+          <div class="article-info">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <Checkboxes client:only="svelte"/>
+      <hr class="end-of-article" />
+      <a href="/projects" class="block-link" data-pagefind-ignore>← Back to projects</a>
+    </Card>
+  </article>
 </Layout>
 <style>
 

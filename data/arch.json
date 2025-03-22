@@ -46,7 +46,7 @@
         "program": "chromium"
       },
       "Firefox": {
-        "icon": "firefox.svg",
+        "icon": "firefoxbrowser.svg",
         "program": "firefox"
       },
       "LibreWolf": {
