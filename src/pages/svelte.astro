@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 
 import Checkboxes from "../components/Checkboxes.svelte";
+
 ---
 
 <Layout
@@ -9,8 +10,8 @@ import Checkboxes from "../components/Checkboxes.svelte";
   description={"Stop reading this please."}
 	pagefindIgnore
 >
-  <div class="notfound-container" slot="404">
-<Checkboxes client:only="svelte"/>
+  <div class="layout-grid-right" slot="right">
+      <Checkboxes client:only="svelte"/>
   </div>
 </Layout>
 <style>

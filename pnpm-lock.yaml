@@ -19,10 +19,10 @@ importers:
         version: 3.3.0
       '@astrojs/svelte':
         specifier: ^7.0.7
-        version: 7.0.7(@types/node@22.13.11)(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(svelte@5.25.0)(typescript@5.8.2)
+        version: 7.0.7(@types/node@22.13.11)(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(svelte@5.25.2)(typescript@5.8.2)
       '@astrojs/vercel':
         specifier: ^8.1.3
-        version: 8.1.3(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(rollup@4.36.0)(svelte@5.25.0)
+        version: 8.1.3(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(rollup@4.36.0)(svelte@5.25.2)
       '@expressive-code/plugin-line-numbers':
         specifier: ^0.38.3
         version: 0.38.3
@@ -50,9 +50,12 @@ importers:
       '@iconify/utils':
         specifier: ^2.3.0
         version: 2.3.0
+      '@skeletonlabs/skeleton':
+        specifier: ^3.1.0
+        version: 3.1.0(tailwindcss@4.0.15)
       '@vercel/analytics':
         specifier: ^1.5.0
-        version: 1.5.0(svelte@5.25.0)
+        version: 1.5.0(svelte@5.25.2)
       astro:
         specifier: ^5.5.4
         version: 5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2)
@@ -65,6 +68,9 @@ importers:
       astro-pagefind:
         specifier: ^1.8.3
         version: 1.8.3(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))
+      highlight.js:
+        specifier: ^11.11.1
+        version: 11.11.1
       medium-zoom:
         specifier: ^1.1.0
         version: 1.1.0
@@ -80,9 +86,12 @@ importers:
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
+      shiki:
+        specifier: ^3.2.1
+        version: 3.2.1
       svelte:
-        specifier: ^5.25.0
-        version: 5.25.0
+        specifier: ^5.25.2
+        version: 5.25.2
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -741,6 +750,11 @@ packages:
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
+
+  '@skeletonlabs/skeleton@3.1.0':
+    resolution: {integrity: sha512-OUoYITLIPZ13Celj99VjJISC/VwLY+3CgjgK5jO4GVoVla1p67pyxlZkq7jQwsQ1rxreEhK6jpkekVUz+FteJg==}
+    peerDependencies:
+      tailwindcss: ^4.0.0
 
   '@sveltejs/acorn-typescript@1.0.5':
     resolution: {integrity: sha512-IwQk4yfwLdibDlrXVE04jTZYlLnwsTT2PIOQQGNLWfjavGifnk1JD1LcZjZaBTRcxZu2FfPfNLOE04DSu9lqtQ==}
@@ -1476,6 +1490,10 @@ packages:
 
   hastscript@9.0.1:
     resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
+
+  highlight.js@11.11.1:
+    resolution: {integrity: sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==}
+    engines: {node: '>=12.0.0'}
 
   html-escaper@3.0.3:
     resolution: {integrity: sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==}
@@ -2250,14 +2268,17 @@ packages:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
       typescript: ^4.9.4 || ^5.0.0
 
-  svelte@5.25.0:
-    resolution: {integrity: sha512-dxbrPGysOBphhtH8fzHWfnVXNT8rSu14Jgj/ufNjnAfBNnuOYkVA9NL3wy/sOP6dV+saESbtRv7TMkV/JFUXIg==}
+  svelte@5.25.2:
+    resolution: {integrity: sha512-IxmBz4x15+bNbowhygUlwoVgqMLfEIDtyjUFDfOwb1f+7Fe5qeLfwGJHMql7QUSJBqNtXcOCPsZDDmuieZcpfA==}
     engines: {node: '>=18'}
 
   svgo@3.3.2:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
+
+  tailwindcss@4.0.15:
+    resolution: {integrity: sha512-6ZMg+hHdMJpjpeCCFasX7K+U615U9D+7k5/cDK/iRwl6GptF24+I/AbKgOnXhVKePzrEyIXutLv36n4cRsq3Sg==}
 
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
@@ -2660,12 +2681,12 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/svelte@7.0.7(@types/node@22.13.11)(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(svelte@5.25.0)(typescript@5.8.2)':
+  '@astrojs/svelte@7.0.7(@types/node@22.13.11)(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(svelte@5.25.2)(typescript@5.8.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11))
       astro: 5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2)
-      svelte: 5.25.0
-      svelte2tsx: 0.7.35(svelte@5.25.0)(typescript@5.8.2)
+      svelte: 5.25.2
+      svelte2tsx: 0.7.35(svelte@5.25.2)(typescript@5.8.2)
       typescript: 5.8.2
       vite: 6.2.2(@types/node@22.13.11)
     transitivePeerDependencies:
@@ -2694,10 +2715,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vercel@8.1.3(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(rollup@4.36.0)(svelte@5.25.0)':
+  '@astrojs/vercel@8.1.3(astro@5.5.4(@types/node@22.13.11)(rollup@4.36.0)(typescript@5.8.2))(rollup@4.36.0)(svelte@5.25.2)':
     dependencies:
       '@astrojs/internal-helpers': 0.6.1
-      '@vercel/analytics': 1.5.0(svelte@5.25.0)
+      '@vercel/analytics': 1.5.0(svelte@5.25.2)
       '@vercel/edge': 1.2.1
       '@vercel/nft': 0.29.2(rollup@4.36.0)
       '@vercel/routing-utils': 5.0.4
@@ -3239,27 +3260,31 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
+  '@skeletonlabs/skeleton@3.1.0(tailwindcss@4.0.15)':
+    dependencies:
+      tailwindcss: 4.0.15
+
   '@sveltejs/acorn-typescript@1.0.5(acorn@8.14.1)':
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11)))(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11)))(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11))
       debug: 4.4.0
-      svelte: 5.25.0
+      svelte: 5.25.2
       vite: 6.2.2(@types/node@22.13.11)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11)))(svelte@5.25.0)(vite@6.2.2(@types/node@22.13.11))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11)))(svelte@5.25.2)(vite@6.2.2(@types/node@22.13.11))
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.25.0
+      svelte: 5.25.2
       vite: 6.2.2(@types/node@22.13.11)
       vitefu: 1.0.6(vite@6.2.2(@types/node@22.13.11))
     transitivePeerDependencies:
@@ -3323,9 +3348,9 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vercel/analytics@1.5.0(svelte@5.25.0)':
+  '@vercel/analytics@1.5.0(svelte@5.25.2)':
     optionalDependencies:
-      svelte: 5.25.0
+      svelte: 5.25.2
 
   '@vercel/edge@1.2.1': {}
 
@@ -4180,6 +4205,8 @@ snapshots:
       hast-util-parse-selector: 4.0.0
       property-information: 7.0.0
       space-separated-tokens: 2.0.2
+
+  highlight.js@11.11.1: {}
 
   html-escaper@3.0.3: {}
 
@@ -5357,14 +5384,14 @@ snapshots:
     dependencies:
       inline-style-parser: 0.2.4
 
-  svelte2tsx@0.7.35(svelte@5.25.0)(typescript@5.8.2):
+  svelte2tsx@0.7.35(svelte@5.25.2)(typescript@5.8.2):
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 5.25.0
+      svelte: 5.25.2
       typescript: 5.8.2
 
-  svelte@5.25.0:
+  svelte@5.25.2:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -5390,6 +5417,8 @@ snapshots:
       css-what: 6.1.0
       csso: 5.0.5
       picocolors: 1.1.1
+
+  tailwindcss@4.0.15: {}
 
   tar@6.2.1:
     dependencies:
