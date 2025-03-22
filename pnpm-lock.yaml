@@ -102,6 +102,9 @@ importers:
       pagefind:
         specifier: ^1.3.0
         version: 1.3.0
+      svelte-copy:
+        specifier: ^2.0.0
+        version: 2.0.0(svelte@5.25.2)
 
 packages:
 
@@ -2261,6 +2264,11 @@ packages:
 
   style-to-object@1.0.8:
     resolution: {integrity: sha512-xT47I/Eo0rwJmaXC4oilDGDWLohVhR6o/xAQcPQN8q6QBuZVL8qMYL85kLmST5cPjAorwvqIA4qXTRQoYHaL6g==}
+
+  svelte-copy@2.0.0:
+    resolution: {integrity: sha512-wJ784qrc9CF7EtrlT2kwJfHnqae/pp4fkgzYeUxex4iFBm6HosT2904t5cZZ1GAZzg/z9V+lCZVP5rpiYsN6Tw==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte2tsx@0.7.35:
     resolution: {integrity: sha512-z2lnOnrfb5nrlRfFQI8Qdz03xQqMHUfPj0j8l/fQuydrH89cCeN+v9jgDwK9GyMtdTRUkE7Neu9Gh+vfXJAfuQ==}
@@ -5383,6 +5391,10 @@ snapshots:
   style-to-object@1.0.8:
     dependencies:
       inline-style-parser: 0.2.4
+
+  svelte-copy@2.0.0(svelte@5.25.2):
+    dependencies:
+      svelte: 5.25.2
 
   svelte2tsx@0.7.35(svelte@5.25.2)(typescript@5.8.2):
     dependencies:

@@ -1,5 +1,5 @@
 <script>
-  let distro = $state("apt");
+  let distro = $state("");
   let packages = $state([""]);
 
   import data from "/data/arch.json";
@@ -11,8 +11,19 @@
   });
   function join(packages) {
     if (packages.length === 1) return packages[0];
-    return `${packages.join(" ")}`;
+
+    switch (distro) {
+      case "apt":
+        return "sudo apt install " + `${packages.join(" ")}`;
+      case "dnf":
+        return "sudo dnf install " + `${packages.join(" ")}`;
+      case "pacman":
+        return "sudo pacman -S " + `${packages.join(" ")}`;
+      default:
+        return `${packages.join(" ")}`;
+    }
   }
+  import { copy } from "svelte-copy";
 </script>
 
 <h2>Distro</h2>
@@ -53,7 +64,7 @@
     </ul>
   {/if}
 {/each}
-<div class="expressive-code">
+<div>
   {#if packages.length === 0}
     <p>Please select at least one package</p>
   {:else}
@@ -62,6 +73,17 @@
       : distro === "dnf"
         ? "sudo dnf install"
         : "sudo pacman -S"}
-    {join(packages)}
+    {packages.join(" ")}
   {/if}
+  <br />
+  <button use:copy={join(packages)}> copy to clipboard </button>
 </div>
+
+<style>
+  button:hover {
+    cursor: pointer;
+  }
+  button {
+    border: revert;
+  }
+</style>
