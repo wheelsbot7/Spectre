@@ -14,6 +14,10 @@ const path = Astro.url.pathname;
     </li>
     <li class="nav-separator">/</li>
     <li>
+      <a href="/frameworks" class:list={{ active: path === '/frameworks' }}>Frameworks</a>
+    </li>
+    <li class="nav-separator">/</li>
+    <li>
       <input id="search" type="text" placeholder="Search (Ctrl+/)" />
       <div id="search-results"></div>
     </li>
