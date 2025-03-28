@@ -1,7 +1,7 @@
 ---
 title: Why ULTRAKILL's story is worth paying attention to
 createdAt: 04-1-2025
-draft: false
+draft: true
 image: "../assets/folder.png"
 tags:
   - analysis
