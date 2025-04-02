@@ -22,7 +22,7 @@ parts.
 Right off the bat, ULTRAKILL does not demand the level of seriousness I am about
 to give it. There are a million examples I could point to, from the sandbox
 literally being gm_construct to the museum that allows you to pick up and throw
-marketable plushies of everyone who worked on the game. My persona favorite has
+marketable plushies of everyone who worked on the game. My personal favorite has
 to be `A R M B O Y ! ! !`, a secret enemy that has the audacity to be placed
 next to a book. In ULTRAKILL, books are usually used to convey lore. They're
 some of the only holdable objects with 0 gameplay purpose, their exclusive
@@ -32,4 +32,8 @@ then there's the book.
 
 ![Armboy's book's contents, consisting of only his name. The font is so large it doesn't fit on the screen.](path)
 
-It's a really funny game.
+It's a really funny game. It's self-aware, and not in a quippy "I guess this is
+something I do now" kind of way where it's almost embarrassed of what it is and
+trying to offset that. It knows what it is, and it's _proud_ of it. Most
+importantly, it has enough confidence in itself to break character for a gag
+before resuming like nothing ever happened.
