@@ -1,7 +1,7 @@
 ---
 title: Why ULTRAKILL's story is worth paying attention to
 createdAt: 04-1-2025
-draft: true
+draft: false
 image: "../assets/folder.png"
 tags:
   - analysis
@@ -27,10 +27,15 @@ to be `A R M B O Y ! ! !`, a secret enemy that has the audacity to be placed
 next to a book. In ULTRAKILL, books are usually used to convey lore. They're
 some of the only holdable objects with 0 gameplay purpose, their exclusive
 function is to deliver prose. When you get close to `A R M B O Y ! ! !`, his
-name appears on screen, an effect that Hakita often uses to break kayfabe. But
-then there's the book.
+name appears on screen, an effect that Hakita often uses to break kayfabe.
 
-![Armboy's book's contents, consisting of only his name. The font is so large it doesn't fit on the screen.](path)
+But then there's the book.
+
+![Armboy, a simple enemy design whose most prominent feature is the 2 large arms it supports itself with](../assets/20250329105421_1.jpg)
+
+![A book placed next to Armboy](../assets/20250329105425_1.jpg)
+
+![Armboy's book's contents, consisting of only his name. The font is so large it doesn't fit on the screen.](../assets/20250329105433_1.jpg)
 
 It's a really funny game. It's self-aware, and not in a quippy "I guess this is
 something I do now" kind of way where it's almost embarrassed of what it is and
