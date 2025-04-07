@@ -41,4 +41,13 @@ It's a really funny game. It's self-aware, and not in a quippy "I guess this is
 something I do now" kind of way where it's almost embarrassed of what it is and
 trying to offset that. It knows what it is, and it's _proud_ of it. Most
 importantly, it has enough confidence in itself to break character for a gag
-before resuming like nothing ever happened.
+before resuming like nothing ever happened.And even then it has more sincerity
+in its jokes than most games have in their climax.
+
+Case in point, every layer in ULTRAKILL has a secret level. For the act finale
+layers, these are the Prime Sanctums. These house secret super-bosses that take
+up a considerable space in the lore, even more-so if you consider all the Greek
+myths they grandfathered in. Others are Johnathan Blow's seminal work The
+Witness, or for the young'uns reading this, the game The Looker was making fun
+of. Even these joke levels are capped off with actual, literal testaments. As in
+the written word of God with a capital G.
