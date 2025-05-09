@@ -5,9 +5,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import spectre from "./package/src";
 import pagefind from "astro-pagefind";
-import node from "@astrojs/node";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
-import vercel from "@astrojs/vercel";
 
 import icon from "astro-icon";
 import rehypeCallouts from "rehype-callouts";
@@ -23,6 +21,8 @@ import solidJs from "@astrojs/solid-js";
 import vue from "@astrojs/vue";
 
 import alpinejs from "@astrojs/alpinejs";
+
+import cloudflare from "@astrojs/cloudflare";
 
 const calloutOptions = {
   theme: "github",
@@ -81,5 +81,5 @@ export default defineConfig({
   }), vue({
     include: ["src/components/**.vue"]
   }), alpinejs()],
-  adapter: vercel({}),
+  adapter: cloudflare(),
 });
