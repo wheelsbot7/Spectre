@@ -2,41 +2,41 @@
   {
     "id": 1,
     "icon": "mdi:language-c",
-    "text": "C - 3 years"
+    "text": "C - 4 years"
   },
   {
     "id": 2,
     "icon": "mdi:language-rust",
-    "text": "Rust - 2 years (personal favorite)"
+    "text": "Rust - 3 years (personal favorite)"
   },
   {
     "id": 3,
     "icon": "mdi:language-python",
-    "text": "Python - 6 years"
+    "text": "Python - 7 years"
   },
   {
     "id": 4,
     "icon": "mdi:language-html5",
-    "text": "HTML - 6 years (most lines written)"
+    "text": "HTML - 7 years (most lines written)"
   },
   {
     "id": 5,
     "icon": "mdi:language-css3",
-    "text": "CSS - 6 years"
+    "text": "CSS - 7 years"
   },
   {
     "id": 6,
     "icon": "mdi:language-javascript",
-    "text": "JavaScript - 2 years"
+    "text": "JavaScript - 3 years"
   },
   {
     "id": 7,
     "icon": "mdi:language-typescript",
-    "text": "TypeScript - 2 years"
+    "text": "TypeScript - 3 years"
   },
   {
     "id": 8,
     "icon": "mdi:language-java",
-    "text": "Java - 8 years"
+    "text": "Java - 9 years"
   }
 ]
