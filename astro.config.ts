@@ -22,8 +22,6 @@ import solidJs from "@astrojs/solid-js";
 
 import vue from "@astrojs/vue";
 
-import alpinejs from "@astrojs/alpinejs";
-
 const calloutOptions = {
   theme: "github",
 };
@@ -36,50 +34,62 @@ export default defineConfig({
     remarkPlugins: [],
     rehypePlugins: [[rehypeCallouts, calloutOptions]],
   },
-  integrations: [pagefind(), expressiveCode({
-    plugins: [pluginLineNumbers()],
-  }), mdx(), sitemap(), spectre({
-    name: "Wheelsblog V7",
-    themeColor: "#1d754a",
-    openGraph: {
-      home: {
-        title: "Wheelsblog V7",
-        description: "The personal site of Owen Wertzberger",
+  integrations: [
+    pagefind(),
+    expressiveCode({
+      plugins: [pluginLineNumbers()],
+    }),
+    mdx(),
+    sitemap(),
+    spectre({
+      name: "Wheelsblog V7",
+      themeColor: "#1d754a",
+      openGraph: {
+        home: {
+          title: "Wheelsblog V7",
+          description: "The personal site of Owen Wertzberger",
+        },
+        blog: {
+          title: "Blog",
+          description: "Guides, tutorials, and infodumps. Usually all at once.",
+        },
+        projects: {
+          title: "Stuff that I have worked on",
+        },
       },
-      blog: {
-        title: "Blog",
-        description: "Guides, tutorials, and infodumps. Usually all at once.",
+      giscus: {
+        repository: "wheelsbot7/spectre",
+        repositoryId: "R_kgDONkaxYQ",
+        category: "Announcements",
+        categoryId: "DIC_kwDONkaxYc4Cl0ul",
+        mapping: "title",
+        strict: true,
+        reactionsEnabled: true,
+        emitMetadata: false,
+        lang: "en",
       },
-      projects: {
-        title: "Stuff that I have worked on",
+    }),
+    icon({
+      include: {
+        mdi: ["*"],
+        ri: ["*"],
       },
-    },
-    giscus: {
-      repository: "wheelsbot7/spectre",
-      repositoryId: "R_kgDONkaxYQ",
-      category: "Announcements",
-      categoryId: "DIC_kwDONkaxYc4Cl0ul",
-      mapping: "title",
-      strict: true,
-      reactionsEnabled: true,
-      emitMetadata: false,
-      lang: "en",
-    },
-  }), icon({
-    include: {
-      mdi: ["*"],
-      ri: ["*"],
-    },
-  }), svelte({
-    include: ["src/components/**.svelte"]
-  }), preact({
-    include: ['src/components/preact/**.jsx'],
-  }), react({
-    include: ['src/components/react/**.jsx'],
-  }), solidJs({
-    include: ['src/components/solid/**.jsx'],
-  }), vue({
-    include: ["src/components/**.vue"]
-  }), alpinejs()],
+    }),
+    svelte({
+      include: ["src/components/**.svelte"],
+    }),
+    preact({
+      include: ["src/components/preact/**.jsx"],
+    }),
+    react({
+      include: ["src/components/react/**.jsx"],
+    }),
+    solidJs({
+      include: ["src/components/solid/**.jsx"],
+    }),
+    vue({
+      include: ["src/components/**.vue"],
+    }),
+  ],
   adapter: vercel({}),
 });
